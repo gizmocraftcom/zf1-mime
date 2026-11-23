@@ -19,7 +19,8 @@
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @version    $Id $
  */
-
+use PHPUnit\Framework\Attributes\DataProvider;
+use PHPUnit\Framework\Attributes\Group;
 
 /**
  * @category   Zend
@@ -27,8 +28,8 @@
  * @subpackage UnitTests
  * @copyright  Copyright (c) 2005-2015 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @group      Zend_Mime
  */
+#[Group('Zend_Mime')]
 class Zend_MimeTest extends PHPUnit\Framework\TestCase
 {
     /**
@@ -80,10 +81,9 @@ class Zend_MimeTest extends PHPUnit\Framework\TestCase
     }
 
     /**
-     * @group ZF-10074
-     *
      * @return void
      */
+    #[Group('ZF-10074')]
     public function testEncodeQuotedPrintableWhenTextHasZeroAtTheEnd()
     {
         $raw      = str_repeat('x', 72) . '0';
@@ -103,13 +103,13 @@ class Zend_MimeTest extends PHPUnit\Framework\TestCase
     }
 
     /**
-     * @group ZF-1688
-     * @dataProvider dataTestEncodeMailHeaderQuotedPrintable
      * @param string $str
      * @param string $charset
      * @param string $result
      * @return void
      */
+    #[Group('ZF-1688')]
+    #[DataProvider('dataTestEncodeMailHeaderQuotedPrintable')]
     public function testEncodeMailHeaderQuotedPrintable($str, $charset, $result)
     {
         $this->assertEquals($result, Zend_Mime::encodeQuotedPrintableHeader($str, $charset));
@@ -132,13 +132,13 @@ class Zend_MimeTest extends PHPUnit\Framework\TestCase
     }
 
     /**
-     * @group ZF-1688
-     * @dataProvider dataTestEncodeMailHeaderBase64
      * @param string $str
      * @param string $charset
      * @param string $result
      * @return void
      */
+    #[Group('ZF-1688')]
+    #[DataProvider('dataTestEncodeMailHeaderBase64')]
     public function testEncodeMailHeaderBase64($str, $charset, $result)
     {
         $this->assertEquals($result, Zend_Mime::encodeBase64Header($str, $charset));
@@ -158,9 +158,9 @@ class Zend_MimeTest extends PHPUnit\Framework\TestCase
     }
 
     /**
-     * @group ZF-1688
      * @return void
      */
+    #[Group('ZF-1688')]
     public function testLineLengthInQuotedPrintableHeaderEncoding()
     {
         $subject = 'Alle meine Entchen schwimmen in dem See, schwimmen in dem See, Köpfchen in das Wasser, Schwänzchen in die Höh!';
