@@ -8,6 +8,8 @@ $finder = PhpCsFixer\Finder::create()
 
 $config = new PhpCsFixer\Config();
 return $config->setRiskyAllowed(true)
+    // php-cs-fixer 3.95.x supports syntax only up to PHP 8.5; allow running on PHP 8.6.
+    ->setUnsupportedPhpVersionAllowed(true)
     ->setRules(array(
         '@PSR2'                     => true,
         '@PHPUnit60Migration:risky' => true,
