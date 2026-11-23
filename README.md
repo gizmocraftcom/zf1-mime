@@ -1,12 +1,12 @@
 # Zend Framework 1 - Mime
 
-[![Build](https://github.com/diablomedia/zf1-mime/workflows/Build/badge.svg?event=push)](https://github.com/diablomedia/zf1-mime/actions?query=workflow%3ABuild+event%3Apush)
-[![codecov](https://codecov.io/gh/diablomedia/zf1-mime/branch/master/graph/badge.svg)](https://codecov.io/gh/diablomedia/zf1-mime)
-[![Latest Stable Version](https://poser.pugx.org/diablomedia/zendframework1-mime/v/stable)](https://packagist.org/packages/diablomedia/zendframework1-mime)
-[![Total Downloads](https://poser.pugx.org/diablomedia/zendframework1-mime/downloads)](https://packagist.org/packages/diablomedia/zendframework1-mime)
-[![License](https://poser.pugx.org/diablomedia/zendframework1-mime/license)](https://packagist.org/packages/diablomedia/zendframework1-mime)
+[![Build](https://github.com/gizmocraftcom/zf1-mime/workflows/Build/badge.svg?event=push)](https://github.com/gizmocraftcom/zf1-mime/actions?query=workflow%3ABuild+event%3Apush)
+[![codecov](https://codecov.io/gh/gizmocraftcom/zf1-mime/branch/master/graph/badge.svg)](https://codecov.io/gh/gizmocraftcom/zf1-mime)
+[![Latest Stable Version](https://poser.pugx.org/gizmocraft/zendframework1-mime/v/stable)](https://packagist.org/packages/gizmocraft/zendframework1-mime)
+[![Total Downloads](https://poser.pugx.org/gizmocraft/zendframework1-mime/downloads)](https://packagist.org/packages/gizmocraft/zendframework1-mime)
+[![License](https://poser.pugx.org/gizmocraft/zendframework1-mime/license)](https://packagist.org/packages/gizmocraft/zendframework1-mime)
 
-> [!WARNING]  
-> We've archived this repo as we're no longer using or maintaining Zend Framework 1
 
-This is just the Zend_Mime component extracted from our fork of the Zend Framework 1 repo (https://github.com/diablomedia/zf1).
+This is just the Zend_Mime component extracted from our fork of the Zend Framework 1 repo (https://github.com/gizmocraftcom/zf1).
+
+Originally forked from the upstream repository https://github.com/diablomedia/zf1-mime. Copyright and license of the original authors are kept in LICENSE.txt.

@@ -1,5 +1,5 @@
 {
-    "name": "diablomedia/zendframework1-mime",
+    "name": "gizmocraft/zendframework1-mime",
     "description": "Zend Framework 1 Mime component",
     "type": "library",
     "keywords": [
@@ -9,10 +9,16 @@
     "homepage": "http://framework.zend.com/",
     "license": "BSD-3-Clause",
     "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/gizmocraftcom/zf1-exception"
+        }
+    ],
     "require": {
-        "php": "~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0 || ~8.5.0",
+        "php": ">=8.5",
         "ext-iconv": "*",
-        "diablomedia/zendframework1-exception": "^1.1.1"
+        "gizmocraft/zendframework1-exception": "^1.1.1"
     },
     "autoload": {
         "psr-0": {
