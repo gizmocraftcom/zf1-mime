@@ -1,7 +1,6 @@
 # Zend Framework 1 - Mime
 
 [![Build](https://github.com/gizmocraftcom/zf1-mime/workflows/Build/badge.svg?event=push)](https://github.com/gizmocraftcom/zf1-mime/actions?query=workflow%3ABuild+event%3Apush)
-[![codecov](https://codecov.io/gh/gizmocraftcom/zf1-mime/branch/master/graph/badge.svg)](https://codecov.io/gh/gizmocraftcom/zf1-mime)
 [![Latest Stable Version](https://poser.pugx.org/gizmocraft/zendframework1-mime/v/stable)](https://packagist.org/packages/gizmocraft/zendframework1-mime)
 [![Total Downloads](https://poser.pugx.org/gizmocraft/zendframework1-mime/downloads)](https://packagist.org/packages/gizmocraft/zendframework1-mime)
 [![License](https://poser.pugx.org/gizmocraft/zendframework1-mime/license)](https://packagist.org/packages/gizmocraft/zendframework1-mime)
